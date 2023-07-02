@@ -1,6 +1,6 @@
 # HomoGCL: Rethinking Homophily in Graph Contrastive Learning
 
-Implementation of KDD'23 paper "HomoGCL: Rethinking Homophily in Graph Contrastive Learning."
+Implementation of KDD'23 paper HomoGCL: [Rethinking Homophily in Graph Contrastive Learning](https://arxiv.org/abs/2306.09614).
 
 ## Requirements
 
@@ -40,10 +40,10 @@ The code is implemented based on [CCA-SSG](https://github.com/hengruizhang98/CCA
 If you find this work is helpful to your research, please consider citing our paper:
 
 ```
-@inproceedings{li2023homogcl,
-  author       = {Wen{-}Zhi Li and Chang{-}Dong Wang and Hui Xiong and Jian{-}Huang Lai},
-  title        = {HomoGCL: Rethinking Homophily in Graph Contrastive Learning},
-  booktitle    = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  year         = {2023}
+@article{li2023homogcl,
+  title={HomoGCL: Rethinking Homophily in Graph Contrastive Learning},
+  author={Wen-Zhi Li and Chang-Dong Wang and Hui Xiong and Jian-Huang Lai},
+  journal={arXiv preprint arXiv:2306.09614},
+  year={2023}
 }
 ```
