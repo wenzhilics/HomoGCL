@@ -27,8 +27,17 @@ Please refer to [args.py](args.py) for the full hyper-parameters.
 
 Pass the above parameters to `main.py`. For example:
 
-```
+```python
+# cora
 python main.py --dataname cora --nclusters 10 --alpha 1 --epoch1 50 --mean --epoch2 1000
+# citeseer
+python main.py --dataname citeseer --nclusters 30 --alpha 1 --epoch1 40 --epoch2 500
+# pubmed
+python main.py --dataname pubmed --nclusters 10 --alpha 1 --epoch1 100 --epoch2 500
+# photo
+python main.py --dataname photo --nclusters 10 --alpha 1 --epoch1 50 --lr1 1e-4 --epoch2 5000 --lr2 1e-3 --proj_dim 64
+# computer
+python main.py --dataname comp --nclusters 30 --alpha 1 --epoch1 100 --lr1 1e-4 --epoch2 5000 --lr2 1e-3
 ```
 
 ## Acknowledgements
